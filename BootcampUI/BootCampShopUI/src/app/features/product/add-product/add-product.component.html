@@ -1,0 +1,16 @@
+<form class="container" [formGroup]="newProduct">
+  <h1 class="mb-0">Add Product</h1>
+  <div class="form-group">
+    <label for="nameInput"></label>
+    <input type="text" class="form-control" id="nameInput" formControlName="name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="descriptionInput"></label>
+    <input type="text" class="form-control" id="descriptionInput" formControlName="description" placeholder="Description">
+  </div>
+  <div class="form-group">
+    <label for="priceInput"></label>
+    <input type="text" class="form-control" id="priceInput" formControlName="price" placeholder="Price">
+  </div>
+  <button type="submit" (click)="goToProductList()" [disabled]="!newProduct.valid" routerLinkActive="router-link-active" (mousedown)="addProduct()" class="btn btn-primary mt-4">Submit</button>
+</form>
