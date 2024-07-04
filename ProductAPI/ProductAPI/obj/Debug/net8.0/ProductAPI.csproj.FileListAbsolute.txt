@@ -223,3 +223,4 @@ C:\Users\aronc\source\repos\Bootcamp\Bootcamp24\ProductAPI\ProductAPI\obj\Debug\
 C:\Users\aronc\source\repos\Bootcamp\Bootcamp24\ProductAPI\ProductAPI\obj\Debug\net8.0\ProductAPI.pdb
 C:\Users\aronc\source\repos\Bootcamp\Bootcamp24\ProductAPI\ProductAPI\obj\Debug\net8.0\ProductAPI.genruntimeconfig.cache
 C:\Users\aronc\source\repos\Bootcamp\Bootcamp24\ProductAPI\ProductAPI\obj\Debug\net8.0\ref\ProductAPI.dll
+C:\Users\aronc\source\repos\Bootcamp\Bootcamp24\ProductAPI\ProductAPI\obj\Debug\net8.0\ProductAPI.sourcelink.json

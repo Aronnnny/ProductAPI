@@ -1,5 +1,5 @@
-<form class="container" [formGroup]="newProduct">
-  <h1 class="mb-0">Add Product</h1>
+<form class="container" [formGroup]="productForm">
+  <h1 class="mb-0">Edit Product</h1>
   <div class="form-group">
     <label for="nameInput"></label>
     <input type="text" class="form-control" id="nameInput" formControlName="name" placeholder="Name">
@@ -12,5 +12,6 @@
     <label for="priceInput"></label>
     <input type="text" class="form-control" id="priceInput" formControlName="price" placeholder="Price">
   </div>
-  <button type="submit" [disabled]="!newProduct.valid" routerLinkActive="router-link-active" (mousedown)="addProduct()" class="btn btn-primary mt-4">Submit</button>
+  <button type="submit" [disabled]="!productForm.valid" routerLinkActive="router-link-active" (click)="updateProduct()" class="btn btn-primary mt-4">Submit</button>
+  <button type="button" routerLinkActive="router-link-active" (click)="resetProduct()" class="btn btn-secondary mt-4 ms-2">Cancel</button>
 </form>

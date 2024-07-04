@@ -41,19 +41,17 @@ namespace ProductAPI.Repositories
             return await _context.Products.FindAsync(id);
         }
 
-        public async Task<bool> Update(Product request)
+        public async Task<bool> Update(Guid id, Product request)
         {
             var product = await _context.Products.FindAsync(request.Id);
 
-            if (product == null)
-            {
-                return false;
-            }
+            if (product == null) return false;
 
             product.Name = request.Name;
             product.Description = request.Description;
             product.Price = request.Price;
 
+            _context.Products.Update(product);
             return await _context.SaveChangesAsync()>0;
         }
     }

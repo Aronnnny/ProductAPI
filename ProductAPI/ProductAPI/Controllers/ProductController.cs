@@ -55,11 +55,11 @@ namespace ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(Guid id)
+        public async Task<IActionResult> GetById([FromRoute]Guid id)
         {
             var result = await _repository.GetById(id);
 
-            if(result == null)
+            if (result == null)
             {
                 return NotFound();
             }
@@ -67,15 +67,14 @@ namespace ProductAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Update(Product product)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] Product product)
         {
-            var result = await _repository.Update(product);
+            if (await _repository.GetById(id) == null)
+                return NotFound();
 
-            if (!result)
-            {
+            if (!await _repository.Update(id, product))
                 return BadRequest();
-            }
 
             return Ok();
         }
