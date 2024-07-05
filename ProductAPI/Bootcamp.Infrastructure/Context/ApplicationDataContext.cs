@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ProductAPI.Models;
+﻿using Bootcamp.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace ProductAPI.Context
+namespace Bootcamp.Infrastructure.Context
 {
     public class ApplicationDataContext : DbContext
     {

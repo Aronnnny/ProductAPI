@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F0492E7-7EC6-44E5-93EA-536DBABECC85}|Bootcamp.Infrastructure\\Bootcamp.Infrastructure.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\bootcamp.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F0492E7-7EC6-44E5-93EA-536DBABECC85}|Bootcamp.Infrastructure\\Bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\bootcamp.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\Bootcamp.API.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\Bootcamp.API.csproj|solutionrelative:productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\bootcamp.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\bootcamp.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B234F215-E66E-489A-84AA-28E8F7CA6C6B}|Bootcamp.Domain\\Bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{42B6DD60-9A20-4BA4-941E-96442DAAC534}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0F0492E7-7EC6-44E5-93EA-536DBABECC85}|Bootcamp.Infrastructure\\Bootcamp.Infrastructure.csproj|c:\\users\\aronc\\source\\repos\\bootcamp\\bootcamp24\\productapi\\bootcamp.infrastructure\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F0492E7-7EC6-44E5-93EA-536DBABECC85}|Bootcamp.Infrastructure\\Bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,91 +46,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProductAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\appsettings.json",
-              "RelativeToolTip": "ProductAPI\\appsettings.json",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Infrastructure\\Context\\ApplicationDataContext.cs",
+              "RelativeDocumentMoniker": "Bootcamp.Infrastructure\\Context\\ApplicationDataContext.cs",
+              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Infrastructure\\Context\\ApplicationDataContext.cs",
+              "RelativeToolTip": "Bootcamp.Infrastructure\\Context\\ApplicationDataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-28T00:14:40.401Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:53:17.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Bootcamp.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Bootcamp.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:52:14.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAIAzwEsAAAApAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAqwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:58:24.37Z",
+              "WhenOpened": "2024-07-04T17:33:09.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductAPI\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ProductAPI\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAADgvy0AAAAMAAAA",
+              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Bootcamp.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Bootcamp.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwDIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:36:45.164Z",
+              "WhenOpened": "2024-07-04T17:32:08.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Program.cs",
-              "RelativeToolTip": "ProductAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Bootcamp.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Bootcamp.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:14:48.354Z",
+              "WhenOpened": "2024-07-04T17:32:06.804Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Context\\ApplicationDataContext.cs",
-              "RelativeDocumentMoniker": "ProductAPI\\Context\\ApplicationDataContext.cs",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Context\\ApplicationDataContext.cs",
-              "RelativeToolTip": "ProductAPI\\Context\\ApplicationDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:10:37.069Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductAPI\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "ProductAPI\\Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:08:05.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductAPI\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\ProductAPI\\Models\\Product.cs",
-              "RelativeToolTip": "ProductAPI\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "DocumentMoniker": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Bootcamp.Domain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\aronc\\source\\repos\\Bootcamp\\Bootcamp24\\ProductAPI\\Bootcamp.Domain\\Models\\Product.cs",
+              "RelativeToolTip": "Bootcamp.Domain\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:06:50.825Z",
+              "WhenOpened": "2024-07-04T17:31:00.243Z",
               "EditorCaption": ""
             }
           ]

@@ -44,6 +44,7 @@ export class AddProductComponent {
         },
         error: (response) => {
           const errorMessage = JSON.stringify(response.error) || response.message || 'Unknown Error.';
+          alert(`${errorMessage}`)
           this._toastService.error("Invalid Product.");
         }
       })

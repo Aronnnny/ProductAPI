@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProductAPI.Models;
-using ProductAPI.Repositories;
+using Bootcamp.Domain.Models;
+using Bootcamp.Infrastructure.Interfaces;
 
 namespace ProductAPI.Controllers
 {
@@ -44,7 +44,7 @@ namespace ProductAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await _repository.Get();
+            var result = await _repository.GetAll();
 
             if (!result.Any())
             {

@@ -1,6 +1,7 @@
-using ProductAPI.Context;
 using Microsoft.EntityFrameworkCore;
-using ProductAPI.Repositories;
+using Bootcamp.Infrastructure.Interfaces;
+using Bootcamp.Infrastructure.Repositories;
+using Bootcamp.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 

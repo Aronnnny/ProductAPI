@@ -9,7 +9,6 @@
     <table class="table table-striped">
       <thead class="table-dark">
         <tr>
-          <!-- <th class="col">Id</th> -->
           <th class="col text-center">Name</th>
           <th class="col text-center">Description</th>
           <th class="col text-center">Price</th>
@@ -19,10 +18,9 @@
       <tbody>
         @for (product of products; track product.id){
           <tr>
-            <!-- <td>{{product.id}}</td> -->
             <td class="text-center">{{product.name}}</td>
             <td class="text-center">{{product.description}}</td>
-            <td class="text-center">{{product.price}}</td>
+            <td class="text-center">${{product.price.toFixed(2)}}</td>
             <td class="text-center">
               <button class="btn fs-5 pt-0 pb-0 text-success" (click)="editProduct(product.id)"><fa-icon [icon]="faPen"></fa-icon></button>
               <button class="btn fs-5 pt-0 pb-0 text-danger" (click)="deleteProduct(product.id)"><fa-icon [icon]="faTrash"></fa-icon></button>

@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ProductAPI.Context;
-using ProductAPI.Models;
+﻿using Bootcamp.Domain.Models;
+using Bootcamp.Infrastructure.Context;
+using Bootcamp.Infrastructure.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
-namespace ProductAPI.Repositories
+namespace Bootcamp.Infrastructure.Repositories
 {
     public class ProductRepository : IProductRepository
     {
@@ -31,7 +32,7 @@ namespace ProductAPI.Repositories
             return await _context.SaveChangesAsync()>0;
         }
 
-        public async Task<IEnumerable<Product>> Get()
+        public async Task<IEnumerable<Product>> GetAll()
         {   
             return await _context.Products.ToListAsync();
         }
@@ -43,7 +44,7 @@ namespace ProductAPI.Repositories
 
         public async Task<bool> Update(Guid id, Product request)
         {
-            var product = await _context.Products.FindAsync(request.Id);
+            var product = await _context.Products.FindAsync(id);
 
             if (product == null) return false;
 
