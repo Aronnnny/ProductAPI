@@ -20,7 +20,6 @@ export class AddProductComponent {
     price: new FormControl('', Validators.required)
   })
 
-
   constructor(private productService: ProductService, private router: Router, private _toastService : ToastService) { }
 
   convertToProduct(): Product {
@@ -38,13 +37,11 @@ export class AddProductComponent {
 
     this.productService.addProduct(product)
       .subscribe({
-        next: (response) => {
+        next: () => {
           this._toastService.success("Product Added.");
           this.goToProductList();
         },
         error: (response) => {
-          const errorMessage = JSON.stringify(response.error) || response.message || 'Unknown Error.';
-          alert(`${errorMessage}`)
           this._toastService.error("Invalid Product.");
         }
       })

@@ -1,5 +1,6 @@
 ﻿using Bootcamp.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace Bootcamp.Infrastructure.Context
 {
@@ -7,6 +8,13 @@ namespace Bootcamp.Infrastructure.Context
     {
         public ApplicationDataContext(DbContextOptions<ApplicationDataContext> options) : base(options) { }
 
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products => Set<Product>();
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            base.OnModelCreating(builder);
+        }
     }
 }

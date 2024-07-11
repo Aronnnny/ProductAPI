@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Bootcamp.Domain.Models;
 using Bootcamp.Infrastructure.Interfaces;
+using Bootcamp.Infrastructure.DTOs;
 
 namespace ProductAPI.Controllers
 {
@@ -16,17 +17,18 @@ namespace ProductAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(Product product)
-        {
-            var result = await _repository.Add(product);
+        //public async Task<IActionResult> Add(ProductDTO product)
+        //{
+        //    var result = await _repository.Add(product);
 
-            if (!result)
-            {
-                return BadRequest();
-            }
+        //    if (!result) return BadRequest();
 
-            return Ok(product);
-        }
+        //    return Ok(product);
+
+        //    var product = new Product
+        //    {
+        //    };
+        //}
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
@@ -55,7 +57,7 @@ namespace ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById([FromRoute]Guid id)
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var result = await _repository.GetById(id);
 
@@ -67,16 +69,16 @@ namespace ProductAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] Product product)
-        {
-            if (await _repository.GetById(id) == null)
-                return NotFound();
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] ProductDTO product)
+        //{
+        //    if (await _repository.GetById(id) == null)
+        //        return NotFound();
 
-            if (!await _repository.Update(id, product))
-                return BadRequest();
+        //    if (!await _repository.Update(id, product))
+        //        return BadRequest();
 
-            return Ok();
-        }
+        //    return Ok();
+        //}
     }
 }
